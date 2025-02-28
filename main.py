@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS -->
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы рады приветствовать вас на нашем сайте!</p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами по адресу <a href="mailto:info@example.com">info@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Мой сайт</p>
+    </footer>
+    <script src="script.js"></script> <!-- Подключение JavaScript -->
+</body>
+</html>
